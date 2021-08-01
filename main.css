@@ -1,0 +1,98 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@1,300&display=swap');
+
+:root{
+    --primary-color: rgba(255, 255, 0, 0.966);
+    --seconndary-color: white;
+    background-color: black;
+    
+}
+
+.container{
+  
+    text-align: center;
+    width: 60%;
+    margin: auto auto;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin-top: 4%;
+    background-color: var(--primary-color);
+    
+}
+
+.heading{
+   font-size: 28px;
+   padding-bottom: 5%;
+   color: var(--seconndary-color);
+}
+
+.billlabel{
+    font-size: 24px;
+
+    padding-bottom: 2%;
+    color: #000;
+
+}
+.cashlabel{
+    font-size: 24px;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: #000;
+
+}
+.message{
+    font-size: 32px;   
+}
+
+input{
+    height: 40px;
+    width: 70%;
+    color: black;
+}
+.btn1{
+    background-color: #fff;
+    font-size: 40px;
+    border-radius: 80%;
+    border:none;
+
+}
+.btn2, .btn3{
+    width: 40%;
+    height: 40px;
+    background-color: #fff;
+    font-size: 20px;
+    border: none;
+
+
+}
+.btn1,.btn2,:hover{
+    cursor: pointer;
+}
+
+#error1, #error2{
+    color: black;
+    font-size: 1.3rem;
+}
+
+#plateswash-gif{
+    margin: auto auto;
+}
+
+.notes-table{
+    font-size: 17px;
+    
+    color: black;
+    margin:auto auto;
+    margin-top: 4%;
+    border: 1px solid black;
+}
+.note{
+    padding-right:0.4rem;
+   
+}
+
+@media screen and (max-width: 600px) {
+    body {
+      margin-top: 10%;
+    }
+  }
