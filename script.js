@@ -36,10 +36,10 @@ checkbtn.addEventListener("click",()=>{
   console.log(bill.value);
   console.log(amounttoreturn);
   if(Number(cashg.value)<Number(bill.value))
-  {
-    gif.style.display = "block";
-    errormsg2.innerText = "I guess you will have to wash plates";
-  }
+    {
+      gif.style.display = "block";
+      errormsg2.innerText = "I guess you will have to wash plates";
+   }
   else if(cashg.value===bill.value)
   {
     errormsg2.innerText = "No change to return";
